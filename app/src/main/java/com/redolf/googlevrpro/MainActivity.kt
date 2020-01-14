@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
         //  TYPE_MONO 是普通效果
           mOption.inputType = VrPanoramaView.Options.TYPE_MONO
         //  TYPE_STEREO_OVER_UNDER 是立体效果 不戴VR眼镜看不出来
-//        mOption.inputType = VrPanoramaView.Options.TYPE_STEREO_OVER_UNDER
+        //  mOption.inputType = VrPanoramaView.Options.TYPE_STEREO_OVER_UNDER
         //  图片
         mBitmap = BitmapFactory.decodeResource(resources, R.drawable.icon_001)
         mVrView = findViewById<VrPanoramaView>(R.id.mVrPanoramaView).apply {
